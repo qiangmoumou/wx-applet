@@ -1,0 +1,7 @@
+/* 引入一个外部 样式 */
+@import "../../styles/box.wxss";
+
+.box{
+  background: yellow;
+  color: #333;
+}

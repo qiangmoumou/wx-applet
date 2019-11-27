@@ -1,0 +1,9 @@
+/* 小程序自带的组件: */
+
+/* 1. 小程序 自带 效果:  点击效果 */
+.hover_class{
+  background-color: aqua;
+  opacity: .5;
+}
+
+/* 2.  */

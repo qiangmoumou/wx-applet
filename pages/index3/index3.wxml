@@ -1,0 +1,19 @@
+<view>  
+  <!--这里我们不写死-->  
+  <!--hello world-->
+
+  <!--用这样方式写, 和vue里的写法相识, 也需要在 data里面初始数据,不过 data在 当前文件下的 , index3.js 里面, 在这个文件里面去操作数据和逻辑-->
+  {{ msg }}
+
+  <view>num:{{num}}</view>
+  <view>isBoy:{{isBoy}}</view>
+  <view>person.name:{{person.name}}</view>
+  <view>person.height:{{person.height}}</view>
+
+  <!--在调试工具里面的 Wxml里面 会显示出来 -->
+  <view data-iddata-id="{{title}}">title</view>
+  
+  <!-- 不选中 -->
+  <view> <checkbox checked="{{false}}"></checkbox> </view>
+
+</view>

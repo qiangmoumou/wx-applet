@@ -1,0 +1,53 @@
+{
+  // 这里是新增页面的 
+  "pages": [
+    // 那个字段放到前面首页就显示那个页面
+    "pages/index13/index13",// 这部分讲的 是 把 自定义组件 引入到 这里   在它 私有 的 json里面设置
+    "pages/index12/index12",// 这部分讲的 是 视频 video
+    "pages/index11/index11",// 这部分讲的 是 导航 navigator
+    "pages/index10/index10",// 这部分讲的 是 轮播组件 swiper
+    "pages/index9/index9",  // 这部分讲的 是 image的一些显示方式(等比,拉伸,位置)
+    "pages/index8/index8",  // 这部分讲的 是 小程序自带组件
+    "pages/index7/index7",  // 这部分讲的 是 样式
+    "pages/index6/index6",  // 这部分讲的 是 单位 rpx (样式wxss)
+    "pages/index5/index5",  // 这部分讲的 是 渲染 列表
+    "pages/index4/index4",  // 这部分讲的 是 运算
+    "pages/index3/index3",  // 这部分讲的 是 插值
+    "pages/index2/index2",  // 直接在此处新加一个 index2 的字段, 在 pages 里面就会自动的创建一个 index2的文件夹,里面有 4个 文件
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  // 这里是配置全局的地方 window 下
+  "window": {
+    "backgroundTextStyle": "dark",   // 下拉的 loading 图
+    "navigationBarBackgroundColor": "#fff",  // 首页 头部导航栏 的 背景颜色
+    "navigationBarTitleText": "全局-首页",  // 这里是 首页 的 头部导航栏标题
+    "navigationBarTextStyle": "black",   // 首页 头部导航栏标题 的 颜色
+    "enablePullDownRefresh":  true   // 开启下拉刷新
+  },
+  // 配置切换页面功能
+  "tabBar": {
+    "color": "#000",   // 修改导航 文字颜色
+    "selectedColor": "#f23030",   // 修改被 激活选中后的 文字
+    "backgroundColor": "#eee",    // 导航栏 的 背景颜色 修改
+    "borderStyle": "black",       // tabBar上边框的颜色,仅支持 black / white
+    "position": "bottom",         // tabBar的位置,仅支持 bottom / top    默认是 bottom
+    "list": [   // 列表数组, 这里数组(导航) 至少需要两个, 不然就会报错
+      // 1.首页
+      {  
+        "pagePath": "pages/index/index",   // 页面路径
+        "text": "首页",   // 切换页面导航 名字
+        "iconPath": "icons/home.png",   // 导航小图标
+        "selectedIconPath": "icons/home_active.png"   // 当被激活的时候, 替换被激活状态下的 导航 小图标
+      },
+      // 我的,  和上面是一样的操作
+      {  
+        "pagePath": "pages/index/index",   
+        "text": "首页",  
+        "iconPath": "icons/home.png",   
+        "selectedIconPath": "icons/home_active.png"   
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

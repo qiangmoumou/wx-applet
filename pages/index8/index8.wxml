@@ -1,0 +1,16 @@
+ /* 小程序自带的组件: */
+ 
+ <!-- 1. 小程序 自带 效果:  点击效果  -->
+<view hover-class="hover_class">
+  index8
+</view>
+
+<!-- 2. 文本是否可选, 久按,变色选中 -->
+<view>
+  <text selectable> index 88 </text>
+</view>
+
+<!-- 3. 是否解码, 让 &nbsp; 变成了 空格 -->
+<view>
+  <text decode> 普&nbsp;通 </text>
+</view>

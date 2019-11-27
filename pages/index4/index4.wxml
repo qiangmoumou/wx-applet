@@ -1,0 +1,20 @@
+<view>
+
+  <!-- 三元运算 -->
+  <checkbox checked="{{isChecked?true:false}}"></checkbox>
+
+  <!-- 算数运算 -->
+  <view>
+    {{ num1 + num2 }} || {{ str1 + tar2 }}
+  </view>
+
+  <!-- 逻辑判断 -->
+  <!-- 注意: 花括号和引号之间如果有空格, 将最终被解析成为字符串 -->
+  <view>
+    <checkbox checked="{{num3>=30}}"></checkbox>
+  </view>
+  <view>
+    <checkbox wx:if="{{ 6 > 5 }}"></checkbox>
+  </view>
+
+</view>

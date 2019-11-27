@@ -1,0 +1,5 @@
+<!-- 这里因为使用了 自定义组件, MyHeader 里面的内容就会有所变化 -->
+
+<view>
+  <MyHeader>页面13</MyHeader> 
+</view>

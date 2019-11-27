@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    // 要使用的组件的名称   // 组件的路径
+    "MyHeader": "../../components/MyHeader/MyHeader"
+  }
+}

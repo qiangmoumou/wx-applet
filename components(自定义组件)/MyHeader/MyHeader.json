@@ -1,0 +1,4 @@
+{
+  "component": true,      // 要弄自定义组件, 这个申明是必须的
+  "usingComponents": {}   
+}

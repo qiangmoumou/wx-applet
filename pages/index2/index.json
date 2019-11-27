@@ -1,0 +1,6 @@
+{
+  // 在配置 自己定义的 文件的 时候, 也和 app.json全局配置的方法一样
+  "navigationBarTitleText": "全局-首页",      // 直接在 全局的 配置里面的 window 下 复制 navigationBarTitleText 就可以修改 index2 的头部导航栏标题了
+  "navigationBarBackgroundColor": "#333",     // 接下来是去复制背景颜色, 在 window 里面的配置怎么用,在这里也是怎么用
+  "navigationBarTextStyle": "black"           // 修改字体颜色 , 尽支持 black / white
+}

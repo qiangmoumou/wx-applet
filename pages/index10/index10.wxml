@@ -1,0 +1,8 @@
+<!-- 轮播组件,小程序已经封装好了组件, 直接使用就行 -->
+  <!-- 开启自动轮播  显示面板指示点  指示点颜色             指示点被选中之后的颜色        衔接滑动  自动轮播切换时间-->
+<swiper autoplay indicator-dots indicator-color="blue" indicator-active-color="red" circular interval="1000">
+                  <!-- 让高度根据宽自适应 -->
+  <swiper-item> <image mode="widthFix" src="../../image/img1.jpg"> </image> </swiper-item>
+  <swiper-item> <image mode="widthFix" src="../../image/img2.jpg"> </image> </swiper-item>
+  <swiper-item> <image mode="widthFix" src="../../image/img3.jpg"> </image> </swiper-item>
+</swiper>

@@ -1,0 +1,18 @@
+<view>
+  <!-- index是索引, item 是每一项, 也要绑定一个 Key来提高性能 和 vue 一样 -->
+  <view wx:for="{{ arr }}" wx:key="{{ index }}">
+   {{ index }}:{{ item }}
+  </view>
+                                              <!-- 修改 index 索引 为 key 这个 词 了  -->
+  <view wx:for="{{ person }}" wx:key="{{ index }}" wx:for-index="key">
+    <!-- 这里 对应的 索引 就要写成了 key 了 -->
+    {{ key }} : {{ height }}
+  </view>
+
+  <!-- 渲染一个包含多节点的解构块 block 最终不会变成真正的 dom 元素 -->
+  <block wx:for="{{[1, 2, 3]}}">
+    <view> {{ index }} </view>  
+    <view> {{ item }} </view>  
+  </block>
+
+</view>

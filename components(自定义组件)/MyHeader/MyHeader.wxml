@@ -1,0 +1,6 @@
+<view class="my_header">
+  {{ cData }}
+  <view>
+    <slot></slot>   <!-- 组件可以通过往里面放置 插槽 来灵活使用 组件 -->
+  </view>  
+</view>

@@ -1,0 +1,17 @@
+<!-- navigate 保留当前页面, 跳转到应用内的某个页面, 但是不能跳转到 tabbar 页面    能返回 -->
+<navigator url="../index10/index10" open-type="navigate"> navigator </navigator>
+
+<!-- redirect 关闭当前页面, 跳转到应用内的某个页面, 但是不能跳转到 tabbar 页面   不能返回 -->
+<navigator url="../index9/index9" open-type="redirect"> redirect </navigator>
+
+<!-- switchTab 跳转到 tabBar 页面, 并关闭其他所有非 tabBar 页面  不能返回-->
+<navigator url="../index/index" open-type="switchTab"> switchTab </navigator>
+
+<!-- reLaunch 关闭所有页面, 打开到应用内的某个页面  不能返回-->
+<navigator url="../index8/index8" open-type="reLaunch"> reLaunch </navigator>
+
+<!-- navigateBack 关闭所有页面, 返回上一页面或多级页面, 可以通过 getCurrentPages()获取当前的页面栈, 决定需要返回几层   不能返回-->
+<navigator url="../index7/index7" open-type="navigateBack"> navigateBack </navigator>
+
+<!-- exit 退出小程序, target="miniProgram"时生效  不能返回-->
+<navigator url="../index6/index6" open-type="exit"> exit </navigator>

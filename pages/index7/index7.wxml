@@ -1,0 +1,18 @@
+<!-- 最外层的 app.wxss 就是小程序的全局样式 -->
+
+
+<!-- 也能使用 行内样式, 用法和 HTML 里的一样, 唯一不同-->
+<view class="lg_box" style="color:red">
+  index7+++h1
+</view>
+
+<!-- 唯一不同, style="color:{{ color }};" 也可以赋值变量 -->
+<view class="lg_box" style="color:{{ color }}">
+  index7+++p
+</view>
+
+<!-- 也可以 赋值一个 类名 -->
+<view style="color:{{ mycolor }}">
+  index7+++span
+</view>
+

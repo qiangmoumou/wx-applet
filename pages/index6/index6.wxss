@@ -1,0 +1,7 @@
+/* 样式文件不需要引入,通过一个父文件会把 里面的 4个文件 关联起来的 */
+.box1{
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+  background-color: aqua;
+}
